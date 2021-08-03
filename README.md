@@ -1,4 +1,4 @@
-# [SEEDLIP 클론]()
+# [SEEDLIP 클론](https://zhemdbs.github.io/Seedlip/index.html)
 
 
 ## *미리보기*
