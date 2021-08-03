@@ -4,7 +4,7 @@
   font-family: 'Gill Sans';
   src: url('../font/GillSans.woff2') format('woff2');
   src: url('../font/GillSans.woff') format('woff');
-  src: url(../font/GillSans.ttf) format('truetype');
+  src: url('../font/GillSans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
