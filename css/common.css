@@ -93,7 +93,7 @@ header.scrolled {z-index: 99999;}
 header.scrolled .top h1 {opacity: 1;}
 header.scrolled .util > li:last-child {background: url('../img/icons.svg') 9px 2px;}
 header .top {width: 100%;}
-header .top h1 { width: 250px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); opacity: 0;}
+header .top h1 { width: 250px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); margin-top: 1px; opacity: 0;}
 .gnb {display: inline-block; position: absolute; top: 50%; transform: translateY(-50%); width: 340px; margin-left: 109px;}
 .gnb li {float: left;}
 .gnb li a:nth-child(1) {padding: 10px 25px 10px 0;}
@@ -179,7 +179,7 @@ header .top h1 { width: 250px; position: absolute; left: 50%; top: 50%; transfor
 /*taste slide*/
 .taste .bx-wrapper {position: relative;}
 .taste .bx-wrapper .bx-viewport {height: 636px;}
-.taste .bx-wrapper .bx-controls {position: absolute; top: 50%; width: 100%; left: 44%;}
+.taste .bx-wrapper .bx-controls {position: absolute; top: 50%; width: 100%; left: 42%;}
 /* .taste .bx-wrapper .bx-controls-direction {position: relative; top: -340px; height: 50px;} */
 .taste .bx-wrapper .bx-controls-direction a.disabled {display: block;}
 .taste .bx-wrapper .bx-controls-direction a {width: 50px; height: 50px; border: 1px solid var(--main-color); border-radius: 100%; position: absolute;}
@@ -228,7 +228,7 @@ header .top h1 { width: 250px; position: absolute; left: 50%; top: 50%; transfor
 .slide_box .cocktail_slider li p {font-size: 16px; line-height: 19.2px; letter-spacing: normal;}
 .slide_box .bx-controls {position: absolute; height: 50px;}
 .slide_box .bx-controls .bx-prev{position: absolute; background: url('../img/icons\ 1.svg') -6px -440.5px no-repeat; width: 50px; height: 50px; border: 1px solid var(--main-color); border-radius: 100%; }
-.slide_box .bx-controls .bx-next{position: absolute; right: 0%; background: url('../img/icons\ 1.svg') -9px -356px no-repeat; width: 50px; height: 50px; border: 1px solid var(--main-color); border-radius: 100%; }
+.slide_box .bx-controls .bx-next{position: absolute; right: -7%; background: url('../img/icons\ 1.svg') -9px -356px no-repeat; width: 50px; height: 50px; border: 1px solid var(--main-color); border-radius: 100%; }
 
 
 
