@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('../font/GillSans.woff2') format('woff2');
+  src: url('../font/GillSans.woff') format('woff');
+  src: url(../font/GillSans.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans-L';
+  src: url('../font/GillSans-Light.woff2') format('woff2');
+  src: url('../font/GillSans-Light.woff') format('woff');
+  src: url('../font/GillSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans-B';
+  src: url('../font/GillSans-Bold.woff2') format('woff2');
+  src: url('../font/GillSans-Bold.woff') format('woff');
+  src: url('../font/GillSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans-UB';
+  src: url('../font/GillSans-UltraBold.woff2') format('woff2');
+  src: url('../font/GillSans-UltraBold.woff') format('woff');
+  src: url('../font/GillSans-UltraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskerville-SB';
+  src: url('../font/GillSans-SemiBold.woff2') format('woff2');
+  src: url('../font/GillSans-SemiBold.woff') format('woff');
+  src: url('../font/GillSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskerville-B';
+  src: url('Baskerville-Bold.woff2') format('woff2');
+  src: url('Baskerville-Bold.woff') format('woff');
+  src: url('../font/Baskerville-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskerville';
+  src: url('Baskerville.woff2') format('woff2');
+  src: url('Baskerville.woff') format('woff');
+  src: url('../font/Baskerville.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

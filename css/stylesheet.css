@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Gill Sans';
+  src: url(../font/GillSans.woff2) format('woff2');
+  src: url(../font/GillSans.woff) format('woff');
+  src: url(../font/GillSans.ttf) format('truetype');
+  src: url(../font/GillSans.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans-L';
+  src: url(../font/GillSans-Light.woff2) format('woff2');
+  src: url(../font/GillSans-Light.woff) format('woff');
+  src: url(../font/GillSans-Light.ttf) format('truetype');
+  src: url(../font/GillSans-Light.otf) format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans-M';
+  src: url(../font/GillSans-Medium.woff2) format('woff2');
+  src: url(../font/GillSans-Medium.woff) format('woff');
+  src: url(../font/GillSans-Medium.ttf) format('truetype');
+  src: url(../font/GillSans-Medium.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans-B';
+  src: url(../font/GillSans-Bold.woff2) format('woff2');
+  src: url(../font/GillSans-Bold.woff) format('woff');
+  src: url(../font/GillSans-Bold.ttf) format('truetype');
+  src: url(../font/GillSans-Bold.otf) format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville';
+  src: url(../font/Baskervville-Regular.woff2) format('woff2');
+  src: url(../font/Baskervville-Regular.woff) format('woff');
+  src: url(../font/Baskervville-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville-I';
+  src: url(../font/Baskervville-Italic.woff2) format('woff2');
+  src: url(../font/Baskervville-Italic.woff) format('woff');
+  src: url(../font/Baskervville-Italic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}

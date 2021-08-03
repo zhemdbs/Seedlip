@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+@media screen and (max-width:1339px) {
+  main .journal {margin: 0 51px;}
+  .journal .slider {padding: 0 15px; max-width: 1298px;}
+}
+@media screen and (max-width:1200px) {
+  .product .product_slider > li .info_box {width: 270px;}
+
+  .moodboard {margin-left: 327px;}
+  .taste ul > li .moodboard img {height: 420px; width: 512px;}
+  .taste ul > li.grove .info_box {left: 25%;}
+
+  .ourstory .info_box {width: 270px; right: 0;}
+
+  main .journal {margin: 0 30px;}
+  .journal .slider {padding: 0 15px; max-width: 1110px;}
+  
+  .stockist .locate {width: 635px;}
+}
+
+
+
+/*991이상*/
+@media screen and (max-width:991px) {
+  .top {display: none;}
+.gnb, .util > li:not(:last-child){display: none;}
+.scrolled h2 {display: block;}
+.util > li:last-child {position: absolute; top: -10px; right: -100px; background: url(../img/icons.svg) no-repeat 3px -22px; height: 25px;}
+header .re_menu {display: block;}
+.scrolled .re_menu div {background-color: var(--main-color);}
+main .product .info_box .sub_top {position: absolute; top: 0; margin: 0 auto;}
+.product .product_slider > li .info_box {width: 260px; margin-left: 0; left: 50%; right: 0; transform: translate(-50%, -50%);}
+.product .product_slider > li .info_box .sub_top {position: unset; margin: -47px 0 320px;}
+.product .product_slider > li .info_box .sub_top a {display: block; text-decoration: underline;}
+.product .product_slider > li .info_box .sub_bottom p {margin-bottom: 0;}
+.product .product_slider > li .info_box .sub_bottom a {background-color: transparent; color: var(--main2-color); padding: 0 5px;}
+
+.moodboard {margin-left: 0; width: 630px;}
+.taste ul > li .info_box {left:50%; width: 610px;}
+.taste ul > li .moodboard img {width: 630px; height: 350px;}
+.taste ul > li.grove .info_box {left: 50%;}
+.taste ul > li .info_box .sub_top {margin-bottom: 403px; margin-top: 16px;}
+.taste ul > li .info_box .sub_top strong {font-size: 20px; letter-spacing: 0.8px;}
+.taste ul > li .info_box .sub_bottom p { margin-bottom: 34px;}
+.taste:hover  .bx-wrapper .bx-controls {opacity: 1;}
+.taste .bx-wrapper .bx-controls {left: 0%; opacity: 0;}
+.taste .bx-wrapper .bx-prev {left: 9.7%;}
+.taste .bx-wrapper .bx-next {right: 10%;}
+
+.ourstory {background-position: 0;}
+.ourstory .info_box {left: 50%; width: 100%;}
+
+.cocktail_recipes {padding: 75px 0 40px;}
+.cocktail_recipes .info_box {left: 50%; width: 365px;}
+.cocktail_recipes .info_box .sub_top {margin-bottom: 495px; margin-top: -5px;}
+.cocktail_recipes .slide_box .bx-wrapper {left: -29%; position: absolute;}
+.cocktail_recipes .slide_box .bx-wrapper .bx-viewport ul.cocktail_slider {transform: translate3d(-1589px,0px,0px);}
+.cocktail_recipes .slide_box .bx-wrapper .bx-viewport ul.cocktail_slider > li {width: 337px!important;}
+.cocktail_recipes .slide_box .bx-wrapper .bx-controls {left: 37%;}
+
+.journal .slider {padding: 0; max-width: 960px;}
+.journal .slider .journal_box {width: 133px; height: 530px;}
+.journal .slider .inner {left: -1%;}
+.journal .slider .bx-wrapper {max-width: 580px!important; }
+.journal .slider .bx-wrapper .bx-viewport ul.journal_slider li {width: 177px!important;}
+
+main .stockist {height:700px;}
+.stockist .locate {width: 690px; margin-top: 100px; left: 50%; transform: translateX(-50%);}
+.stockist .info_box {margin-left: 0px; width: 710px; left: 50%;}
+.stockist .info_box .sub_top {margin-bottom: 543px; margin-top: 60px;}
+
+footer {height: 1085px;}
+.footer_top  {top: 15%;}
+.footer_top .row.first {top: 0; left: 50%;}
+.footer_top .row.first .newsletter {margin-bottom: 221px;}
+.footer_top .row:nth-child(2) {transform: translateY(215%);}
+.footer_top .row:last-child {top: 133%; left:50%; width: 609px; transform: translate(-50%,-50%);}
+.footer_top .row:last-child .col_left {width: 100%; float: none;}
+.footer_top .row:last-child .col_left li + li {margin-top: 0;}
+.footer_top .row:last-child .col_right {width: 100%; float: none;}
+.footer_top .row:last-child .col li:last-child {margin: 0;}
+.footer_top .row:last-child ul > li {border-top: 1px solid var(--main2-color); padding: 18px 0; float: none; width: 100%;}
+.footer_top .row:last-child ul > li a.icon {display: block;}
+
+
+.footer_bottom {width: 690px; bottom: 0%;}
+.footer_bottom .bottom ul > li {width: unset; margin: 0 21px;}
+.footer_bottom .bottom ul.bottom li {margin-top: 0;}
+.footer_bottom .bottom li a {padding-right: 5px;}
+.footer_bottom .copyright {margin-top: 0;}
+}
+
+
+@media screen and (max-width:768px) {
+  .visual .visual_about .slogan {width: 550px;}
+  .visual .visual_about .slogan strong {font-size: 24px;}
+
+  .cocktail_recipes .slide_box .bx-wrapper {left: -50%;}
+  .cocktail_recipes .slide_box .bx-wrapper .bx-controls {left: 43%; width: 500px;}
+
+  .journal .info_box {margin-top: 50px;}
+  .journal .slider {margin-top: 75px;}
+
+  main .stockist {height: 580px;}
+  .stockist .locate {width: 510px;}
+  .stockist .info_box {width: 495px;}
+  .stockist .info_box .sub_top {margin-bottom: 390px;}
+  .stockist .info_box .sub_top strong {font-size: 20px;}
+}
+
+@media screen and (max-width:661px) {
+  .moodboard {margin-left: 0; width: 485px;}
+  .taste ul > li .moodboard img {width: 485px; height: 350px;}
+
+  .journal .slider .bx-wrapper {max-width: 379px!important;}
+  .footer_top .row:last-child ul.col {padding: 0 20px;}
+  
+}
+
+@media screen and (max-width:576px) {
+  .visual .visual_about .slogan {width: 480px;}
+  .visual .visual_about .slogan p {font-size: 12px;}
+  .visual .visual_about .slogan strong {font-size: 24px; letter-spacing: 1.8px;}
+
+  .moodboard {margin-left: 0; width: 79%;}
+  .taste ul > li .info_box {left:50%; width: 590px;}
+  .moodboard {top: 46%;}
+  .taste ul > li .moodboard img {width: 450px;}
+  .taste ul > li .info_box {width: 500px;}
+  .taste ul > li .info_box .sub_top {margin-bottom: 390px;}
+
+  .ourstory {background-position: center;}
+
+  .cocktail_recipes .slide_box .bx-wrapper {left: -50%;}
+  .cocktail_recipes .slide_box .bx-wrapper .bx-viewport ul.cocktail_slider > li {width: 262px!important;}
+  .cocktail_recipes .slide_box .bx-wrapper .bx-controls {left: 47%; width: 346px;}
+
+  .journal .info_box .sub_top strong {font-size: 20px; letter-spacing: 0.28px;}
+  .journal .slider .bx-wrapper {max-width: 392px!important; left: 50%;}
+  .journal .bx-controls .bx-prev {left: -12%;}
+  .journal .bx-controls .bx-next {right: -12%;}
+  
+  .stockist .locate {width: 545px;}
+  .stockist .locate img {width: 545px; height: 362px;}
+  .stockist .info_box {width: 510px;}
+
+  .footer_top .row:nth-child(2) {transform: translateY(230%);}
+  .footer_top .row:last-child {width: 545px;}
+  .footer_top .row:last-child ul.col {padding: 0 30px;}
+
+  .footer_bottom {width: 535px; bottom: 5%;}
+  .footer_bottom .bottom {display: inline;}
+  .footer_bottom .bottom ul > li {margin: 0 13px; display: inline-block;}
+  .footer_bottom .bottom ul.bottom li {display: inline-block;}
+  .footer_bottom .copyright {display: inline-block;}
+  .footer_bottom .caution * {display: inline; padding: 0 3px;}
+
+}
+
+@media screen and (max-width:464px) {
+  .visual .visual_about .slogan {width: 316px;}
+
+  .footer_top .row:last-child ul.col {padding: 0 60px;}
+}
+
+@media screen and (max-width:376px) {
+  .taste ul > li .info_box {width: 350px;}
+  .taste ul > li .info_box .sub_top {margin-bottom: 380px;}
+  .taste ul > li .info_box .sub_bottom p { margin-bottom: 25px;}
+
+  .cocktail_recipes .slide_box .bx-wrapper {left: -90%;}
+  .cocktail_recipes .slide_box .bx-wrapper .bx-viewport ul.cocktail_slider > li {width: 312px!important;}
+  .cocktail_recipes .slide_box .bx-wrapper .bx-controls {width: 310px;}
+
+  .journal .slider .bx-wrapper {left: 45%;}
+
+  .stockist .locate img {width: 345px; height: 343px;}
+  .stockist .info_box {width: 345px;}
+
+  .footer_top .row:last-child {width: 345px; bottom: 0; top: 95%;}
+  .footer_top .row.first .newsletter {margin-bottom: 200px;}
+  .footer_top .row:nth-child(2) {transform: translateY(200%);}
+  .footer_bottom {width: 345px; bottom: 0;}
+  .footer_bottom .bottom {display: inline-block;}
+  .footer_bottom .bottom ul > li {float: none;}
+}
